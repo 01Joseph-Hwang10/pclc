@@ -13,7 +13,7 @@ const initConfig = () => {
     }
   } catch (e) {}
   try {
-    config = require("../../../clsc.config");
+    config = require("../../../pclc.config");
   } catch (e) {
     config = {};
   }
